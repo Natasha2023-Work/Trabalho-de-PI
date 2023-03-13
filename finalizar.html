@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    
+    <link  rel="stylesheet" href="../main.css">
+    <link  rel="stylesheet" href="../Partes_do_site_css/finalizar.css">
+
+    <title>AlugTudo</title>
+
+</head>
+    <body>
+        <header>
+            <a href="../main.html" class="logo"> <img src="../Imagens/Logo-_AlugTudo.svg" alt=""> </a> 
+            <a href=""> Login </a> 
+            <div>
+                    
+            </div>
+                   
+        </header>
+        <nav class="dp-menu">
+            <ul>
+                <li> <a class="tab-button"> Festas </a> 
+                    <ul>
+                        <li> <a href="festas.html"> Decorações </a> </li>
+                        <li> <a href="festas-2.html"> Utensilios </a> </li>
+                    </ul>
+                </li> 
+                <li> <a  class="tab-button"> Domésticos </a> 
+                    <ul>
+                        <li> <a href="domesticos.html"> Cozinha </a> </li>
+                        <li> <a href="domesticos-2.html"> Dia-a-dia </a> </li>
+                    </ul>
+                </li> 
+                <li> <a class="tab-button"> Obra </a> 
+                    <ul>
+                        <li> <a href="obras.html"> Pesada </a> </li>
+                        <li> <a href="obras-2.html"> Pequenos consertos </a> </li>
+                    </ul>
+                </li>
+                <li> <a class="tab-button"> Carro </a>
+                    <ul>
+                        <li> <a href="carro.html"> Limpeza </a> </li>
+                        <li> <a href="carro-2.html"> Ferramentas </a> </li>
+                    </ul>
+                </li> 
+                <li> <a href= "visite.html" target="_blank"> Nos visite! </a> </li> 
+            </ul>
+        </nav>
+        <form action="url_para_enviar_dados_do_formulario" method="post">
+            <fieldset>
+                <h2>Endereço para entrega</h2>
+                <div class="input-duplo">
+                    <div>
+                        <label for="nome">Nome: <span>*</span></label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div>
+                        <label for="sobrenome">Sobrenome: <span>*</span></label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+                </div>
+                <div class="input-simples">
+                    <div>
+                        <label for="endereco">Endereço: <span>*</span></label>
+                        <input type="text" name="endereco" id="endereco" required>
+                    </div>
+                </div>
+                <div class="input-duplo">
+                    <div>
+                        <label for="cep">CEP: <span>*</span></label>
+                        <input type="text" name="cep" id="cep" required>
+                    </div>
+                    <div>
+                        <label for="estado">País</label>
+                        <div class="select-wrapper">
+                            <select name="estado" id="estado">
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minhas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                                <option value="DF">Distrito Federal</option>
+                                
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <h2>Opção de envio</h2>
+                <div class="radio">
+                    <input type="radio" name="opcao-envio" id="normal" value="normal">
+                    <label for="normal">Normal</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="opcao-envio" id="expresso" value="expresso">
+                    <label for="expresso">Expresso</label>
+                </div>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+
+        <footer>
+            <dt> E-mail </dt>
+            <dd> <a href="#"> Email </a> </dd>
+            <br/>
+            <dt> Telefone </dt>
+            <dd> <a href="http://api.whatsapp.com/send?phone=############"> Telefone</a> </dd>
+
+            <a href="main.html" class="logo"> <img src="Imagens/Logo-_AlugTudo.svg" alt=""> </a> 
+        </footer>
+
+    </body>
+</html>
